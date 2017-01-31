@@ -1,0 +1,6 @@
+services:
+    ds.account.widget.account.menu:
+        parent: ds.widget.widget.abstract
+        class: Ds\Bundle\AccountBundle\Widget\Account\MenuWidget
+        tags:
+            - { name: ds.widget, position: ds_portal_portal_navigation }
