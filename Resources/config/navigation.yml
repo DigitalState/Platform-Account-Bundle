@@ -1,7 +1,7 @@
 oro_menu_config:
     templates:
         ds_account_menu:
-            template: DsAccountBundle:Account:menu/account_menu.html.twig
+            template: DsAccountBundle:Account:menu/menu.html.twig
             currentClass: active
             ancestorClass: active
     tree:
