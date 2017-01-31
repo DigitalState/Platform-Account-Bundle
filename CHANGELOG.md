@@ -4,4 +4,5 @@ This changelog references the relevant changes (new features, changes and bugs) 
 
   * Added ds_account_menu navigation menu.
   * Added locale to account routes.
+  * Added locale event listener for account routes.
   
