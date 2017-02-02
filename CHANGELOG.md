@@ -6,3 +6,4 @@ This changelog references the relevant changes (new features, changes and bugs) 
   * Added locale to account routes.
   * Added locale event listener for account routes.
   * Added account menu widget.
+  * Added temporary fix for menu locale.
