@@ -1,13 +1,13 @@
 <?php
 
-namespace Ds\Bundle\AccountBundle\Widget\Account;
+namespace Ds\Bundle\AccountBundle\Widget\Account\Menu;
 
 use Ds\Bundle\WidgetBundle\Widget\Widget;
 
 /**
- * Class MenuWidget
+ * Class MainWidget
  */
-class MenuWidget extends Widget
+class MainWidget extends Widget
 {
     /**
      * {@inheritdoc}
@@ -22,6 +22,6 @@ class MenuWidget extends Widget
      */
     public function getContent(array $data = [])
     {
-        return $this->templating->render('@DsAccountBundle/Resources/views/Account/widget/menu.html.twig', $data);
+        return $this->templating->render('@DsAccountBundle/Resources/views/Account/widget/menu/main.html.twig', $data);
     }
 }
