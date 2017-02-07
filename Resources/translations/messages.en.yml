@@ -1,7 +1,7 @@
 ds:
     account:
-        home:
-            page:
-                account:
+        page:
+            account:
+                home:
                     index:
                         title: My Account
